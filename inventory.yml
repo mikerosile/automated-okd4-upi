@@ -1,0 +1,7 @@
+all:
+  vars:
+    okd_domain: okd.mydomain.com
+    okd_cluster_name: mbr
+  hosts:
+    okd-services:
+      ansible_host: 192.168.122.14
